@@ -2,7 +2,7 @@
 
 public class Scoreboard
 {
-	private List<Match> matches;
+  public List<Match> Matches { get; private set; }
 
   public IList<Match> MatchesSummaryList
   {
